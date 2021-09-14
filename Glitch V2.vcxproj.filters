@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{9841daf2-d410-4351-a109-0db9d9b62bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library">
+      <UniqueIdentifier>{893d0c8b-90dc-4dee-9594-805708725e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SDK">
+      <UniqueIdentifier>{28156d3c-3752-452f-9006-1189b8c22d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library\ImGui">
+      <UniqueIdentifier>{9a94d9cf-7098-42c9-8d90-510cd6c5b9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library\ReturnSpoofer">
+      <UniqueIdentifier>{4fdf2b81-cf3e-41d3-bfc0-d896475f19d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hook">
+      <UniqueIdentifier>{c2e50196-b57c-4381-a2f1-fa357e256a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat">
+      <UniqueIdentifier>{ab7992dd-7a77-401e-9a84-92e3e5872b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library\nuk">
+      <UniqueIdentifier>{2001cf73-062d-4f86-8407-1646c018a5a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Heading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Resource Files\Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnSpoofer.h">
+      <Filter>Resource Files\Library\ReturnSpoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKVector.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKUnRealEngine.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookProcessEvent.h">
+      <Filter>Header Files\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookGetViewPoint.h">
+      <Filter>Header Files\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatESP.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatAimbot.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatManipulation.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="HookCalculateShot.h">
+      <Filter>Header Files\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookNoKick.h">
+      <Filter>Header Files\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Spfr2.h">
+      <Filter>Resource Files\Library\ReturnSpoofer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ReturnSpoofStub.asm">
+      <Filter>Resource Files\Library\ReturnSpoofer</Filter>
+    </MASM>
+    <MASM Include="_spoofer_stub.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
